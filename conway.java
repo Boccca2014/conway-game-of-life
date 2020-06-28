@@ -1,9 +1,8 @@
-// please work
 // A simple Java program to implement Game of Life 
-public class GameOfLife 
-{ 
-    public static void main(String[] args) 
-    { 
+// Basic program as told by GeeksforGeeks
+// Will modify to run with GUI and work randomly
+public class conway { 
+    public static void main(String[] args) { 
         int M = 10, N = 10; 
   
         // Intiliazing the grid. 
@@ -37,8 +36,7 @@ public class GameOfLife
     } 
   
     // Function to print next generation 
-    static void nextGeneration(int grid[][], int M, int N) 
-    { 
+    static void nextGeneration(int grid[][], int M, int N) { 
         int[][] future = new int[M][N]; 
   
         // Loop through every cell 
